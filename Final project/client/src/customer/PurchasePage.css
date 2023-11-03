@@ -1,0 +1,11 @@
+h1 {
+	color: #dd3675;
+}
+
+.react-datepicker-wrapper {
+	width: 100%;
+}
+
+.react-datepicker__close-icon::after {
+	background-color: #dd3675 !important;
+}

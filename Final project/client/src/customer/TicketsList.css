@@ -1,0 +1,31 @@
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: rgba(238, 119, 36, 0.1);
+	box-shadow: none;
+}
+
+th,
+.my-red {
+	color: #dd3675 !important;
+}
+
+.my-violet {
+	color: #b44593;
+}
+
+tr {
+	border-color: rgb(238, 119, 36, 0.1);
+}
+
+tbody:not(.not-hoverable) tr:hover {
+	background-color: rgb(238, 119, 36, 0.4);
+	cursor: pointer;
+}
+
+td {
+	vertical-align: middle;
+}
+
+.person {
+	height: 100%;
+}

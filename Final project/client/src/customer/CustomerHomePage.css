@@ -1,0 +1,42 @@
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: inherit;
+}
+
+.section {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h1,
+h3 {
+	color: #dd3675;
+}
+
+h1:not(.with-side-button) {
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+.btn-primary {
+	background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+	border: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.btn-outline-primary {
+	color: #dd3675;
+	border-color: #dd3675;
+}
+
+.btn-outline-primary:hover {
+	background-color: #dd3675;
+	border-color: #b44593;
+}
